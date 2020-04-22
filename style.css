@@ -26,13 +26,24 @@ a {
   font-weight: 400;
 }
 
-h4 {
+/*paragraph font*/
+h3 {
   color: #3b3b3b;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 400; 
   margin-bottom:20px;
+}
+
+/*button font*/
+h4 {
+  color: #3b3b3b;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400; 
+  /*margin-bottom:20px;*/
 }
 
 a,
@@ -53,16 +64,22 @@ P {
 
 #intro {
   max-width: 50rem;
-  margin: 3rem auto;
+  margin: 50px auto;
   margin-top:170px;
+  margin-bottom:0px;
+  padding-bottom:0px;
   text-align: center;
-  height:700px;
+  height:400px;
+  /*margin-bottom: 320px;*/
+
 }
 
+
 .intro__hed {
-  font-size: 70px;
-  margin: 2rem auto 0.5rem auto;
-  font-family: 'EB Garamond', serif;
+  font-size: 77px;
+  margin: 30px;
+  line-height: 77px;
+  font-family: 'Playfair+Display', serif;
 
 }
 
@@ -74,49 +91,40 @@ P {
   font-weight: 400;
 }
 
-#intro {
-  margin-bottom: 320px;
+
+.center {
+   display: flex; 
+   justify-content: center;  
 }
 
-#outro {
-  height: 640px;
+
+.button {
+  border: 1px solid black;
+  border-radius:50px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "courier";
+  color:#3b3b3b;
+  background:none;
+  /*stroke:#000000;*/
+  width:150px;
+  margin-right:10px;  
+  padding: 10px;
+  text-align: center;
 }
 
-/*Scroll Icon Animation*/
-.scroll-downs {
-  position: absolute;
-  top: 500px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width :30px;
-  height: 55px;
-}
-.mousey {
-  /*margin-top:320px;*/
-  width: 3px;
-  padding: 10px 15px;
-  height: 35px;
-  border: 2px solid #3b3b3b;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
-}
-.scroller {
-  width: 3px;
-  height: 10px;
-  border-radius: 25%;
-  background-color: #194F39;
-  animation-name: scroll;
-  animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-  animation-iteration-count: infinite;
+.button:hover {
+  background:#3b3b3b;
+  color:#FFFFFF;
+  cursor: pointer;
 }
 
-@keyframes scroll {
-  0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(10px); opacity: 0;}
+.button:hover h4{
+  color:#FFFFFF;
 }
 
+.button:focus {
+  background:#3b3b3b;
+  color:#FFFFFF;
+  cursor: pointer; 
+}
