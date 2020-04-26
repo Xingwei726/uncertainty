@@ -3,22 +3,64 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Who will win the presidency?</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,600i,700,900&display=swap" rel="stylesheet">      
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style2.css" />
+    <!--<link rel="stylesheet" href="style.css" />-->
+
+
 
     <!-- dependencies -->
     <script src="./libraries/p5.min.js"></script>
     <script src="./libraries/p5.svg.js"></script>
+    <script type='text/javascript' src='./libraries/p5.dom.min.js'></script>
 
-    <!-- p5 code -->
-    <script language="javascript" type="text/javascript" src="sketch.js"></script>
 
 
 </head>
 
-<body>
-  <!-- p5.js will automatically create a canvas element here when the page loads -->
+<body style="background-color:#FFFAF0;">
+  
+  
+  <div id="half">
+
+    <h2>Who will win the presidency?</h2>
+    <p><b>Get ready to simulate the 2016 presidential election!</b></p>
+    <p>In the map at right, each state is represented by a spinning line. The faster each state spins, the more certain the polling data is prior to the election.   The color represents the candidate leading each state poll. Polling data isn’t perfect.  Examine the outcomes and look for areas where the polling data didn’t reflect election day results.</p>
+    <p><b>Click the “Roll” buttons to simulate election day results. Each result will be saved. See how many times each candidate wins.</b></p>
+    <div class="center">
+        <button class="button">
+            <a href="index.html"><h4>Roll Once</h4></a>
+        </button>
+        <button class="button">
+            <a href="index.html"><h4>Roll 10 Times</h4></a>
+        </button>
+        <button class="button">
+            <a href="index.html"><h4>Clear</h4></a>
+        </button>
+    </div>
+    
+    <div class="space"></div>
+    
+    <div class="center">
+        <button class="button">
+            <a href="index.html"><h4>Homepage</h4></a>
+        </button>
+    </div>
+
+
+  </div>
+  
+  
+  
+          
+    <!-- p5 code -->
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/cash.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/moment.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/lodash.min.js"></script>
+
+  
 </body>
 </html>

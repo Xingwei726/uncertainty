@@ -1,0 +1,49 @@
+State,Abbr,yPosition,xPosition,Margin,Clinton,Trump,win
+Alaska,AK,1,1,4.9,32%,48%,N
+Alabama,AL,7,7,2,47%,43%,Y
+Arkansas,AR,6,5,4.1,45%,47%,N
+Arizona,AZ,6,2,4.9,36%,59%,N
+California,CA,5,1,4.9,58%,35%,Y
+Colorado,CO,5,3,3.7,48%,43%,Y
+Connecticut,CT,4,10,3,50%,35%,Y
+Delaware,DE,5,10,4.1,51%,30%,Y
+Florida,FL,8,9,3.3,46%,50%,N
+Georgia,GA,7,8,2.8,45%,52%,N
+Iowa,IA,4,5,3.5,29%,48%,N
+Idaho,ID,3,2,4,53%,41%,Y
+Illinois,IL,3,6,4.3,37%,48%,N
+Indiana,IN,4,6,4,39%,46%,N
+Kansas,KS,6,4,5.5,34%,58%,N
+Kentucky,KY,5,6,4,37%,54%,N
+Louisiana,LA,7,5,4.4,35%,50%,N
+Massachusetts,MA,3,10,5,46%,42%,Y
+Maryland,MD,5,9,4,63%,27%,Y
+Maine,ME,1,11,3.5,56%,26%,Y
+Michigan,MI,3,7,2.8,47%,49%,N
+Minnesota,MN,3,5,3.9,49%,39%,Y
+Montana,MT,3,3,3.2,36%,46%,N
+Missouri,MO,5,5,3.5,41%,47%,N
+North Carolina,NC,6,7,3.5,44%,44%,Y
+North Dakota,ND,3,4,4.9,32%,43%,N
+Nebraska,NE,5,4,3.6,29%,56%,N
+New Hampshire,NH,2,11,3.7,49%,38%,Y
+New Jersey,NJ,4,9,3.8,51%,40%,Y
+New Mexico,NM,6,3,1.8,46%,44%,Y
+Nevada,NV,4,2,4.9,46%,46%,N
+New York,NY,3,9,4.5,51%,34%,Y
+Ohio,OH,4,7,3.2,39%,46%,N
+Oklahoma,OK,7,4,4.3,30%,60%,N
+Oregon,OR,4,1,4.4,41%,34%,Y
+Pennsylvania,PA,4,8,2.8,46%,40%,Y
+Rhode Island,RI,4,11,3.4,52%,32%,Y
+South Carolina,SC,6,8,4.4,36%,47%,N
+South Dakota,SD,4,4,4,35%,49%,N
+Tennessee,TN,6,6,4.4,34%,44%,N
+Texas,TX,8,4,3.6,35%,49%,N
+Utah,UT,5,2,2.7,30%,40%,N
+Virginia,VA,5,8,3.6,48%,42%,Y
+Vermont,VT,2,10,3,52%,26%,Y
+Washington,WA,3,1,4.9,55%,39%,Y
+Wisconsin,WI,2,6,1.9,49%,41%,Y
+West Virginia,WV,5,7,5,28%,60%,N
+Wyoming,WY,4,3,3.6,20%,58%,N
