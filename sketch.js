@@ -1,7 +1,4 @@
 var table
-// var x = 0;
-// var marginTop=50;
-// var marginBottom=50;
 let angle=0;
 let speed =0;
 var button;
@@ -60,7 +57,7 @@ function draw(){
         const stateAbbr = table.getString (r, "Abbr")
         const x = table.getNum (r, "xPosition")
         const y = table.getNum (r, "yPosition")
-        // const value = table.getNum (r, "Win")
+        const win = table.getString (r, "win")
         const x1 = x*60
         const y1 = y*60
         const acce = table.getNum (r, "Margin")
@@ -70,17 +67,98 @@ function draw(){
         
         push()
         rectMode(CENTER);
-        // angleMode(RADIANS)
         angleMode(DEGREES)
         translate(x1, y1)
         rotate(angle)
-        
-        fill(0)
+        fill('blue');    
         rect(0, 0, 55, 2);
         angle=angle+speed
         pop()
 
-        console.log (speed)
+
+        push()
+        rectMode(CENTER);
+        angleMode(DEGREES)
+        translate(x1, y1)
+        rotate(30)
+        rotate(angle)
+        fill('blue');    
+        rect(0, 0, 55, 2);
+        angle=angle+speed
+        pop()
+
+
+        push()
+        rectMode(CENTER);
+        angleMode(DEGREES)
+        translate(x1, y1)
+        rotate(60)
+        rotate(angle)
+        fill('blue');    
+        rect(0, 0, 55, 2);
+        angle=angle+speed
+        pop()
+
+        
+        push()
+        rectMode(CENTER);
+        angleMode(DEGREES)
+        translate(x1, y1)
+        rotate(90)
+        rotate(angle)
+        fill('blue');    
+        rect(0, 0, 55, 2);
+        angle=angle+speed
+        pop()
+
+        
+        push()
+        rectMode(CENTER);
+        angleMode(DEGREES)
+        translate(x1, y1)
+        rotate(120)
+        rotate(angle)
+        fill('blue');    
+        rect(0, 0, 55, 2);
+        angle=angle+speed
+        pop()        
+
+        
+        push()
+        rectMode(CENTER);
+        angleMode(DEGREES)
+        translate(x1, y1)
+        rotate(150)
+        rotate(angle)
+        fill('blue');    
+        rect(0, 0, 55, 2);
+        angle=angle+speed
+        pop()       
+
+
+        push()
+        textSize(12);
+        fill(255);
+        textStyle(NORMAL);
+        textAlign(BOLD);
+        text(stateAbbr, x1, y1);
+        pop()
+
+ 
+ //static circles
+    // for (let r=0; r<table.getRowCount(); r++) {
+    //     const state = table.getString (r, "State")
+    //     const stateAbbr = table.getString (r, "Abbr")
+    //     const x = table.getNum (r, "xPosition")
+    //     const y = table.getNum (r, "yPosition")
+    //     // rect(x*100, y*100, 100, 10);
+    //     ellipse (x*60,y*60,60,60)
+        
+    // }
+        
+        // console.log (speed)
+        // console.log (stateAbbr)
+        // console.log (win)
 
     }
 
