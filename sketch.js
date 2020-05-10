@@ -1,6 +1,6 @@
 var table
-let angle=0;
-let speed =0;
+let angle=30;
+var speed;
 var button;
 
 var width=1
@@ -52,6 +52,20 @@ function draw(){
     //     // ellipse (x*60,y*60,60,60)
     // }
 
+
+//color legend
+     textSize(14);
+     fill(0,0,0);
+     stroke(1);
+     text("Clinton",250,40);
+     text("Trump",350,40);
+     
+     noStroke()
+     fill(27,36,241); 
+     circle(235,35,15,15);//top
+     
+     fill(248,101,32);
+     circle(335,35,15,15);
 
 //rotating bars
     for (let r=0; r<table.getRowCount(); r++) {
@@ -149,16 +163,14 @@ function draw(){
         angle=angle+speed
         pop()       
 
+
+//color legend
         // push()
-        // rectMode(CENTER);
-        // angleMode(DEGREES)
-        // translate(11*60,1*60)
-        // rotate(angle)
-        // stroke('tomato')
-        // fill('tomato');    
-        // rect(0, 0, 55, 1);
-        // angle=angle+1
+        // stroke('blue')
+        // fill('blue')
+        // circle(300, 60, 20)
         // pop()
+
 
 //States Abbr
         push()

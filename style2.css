@@ -87,6 +87,42 @@ canvas {
   text-align: center;
 }
 
+
+.newButton {
+  border: none;
+  border-radius:5px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "courier";
+  color:#FFFFFF;
+  background:#000000;
+  width:150px;
+  margin-right:10px;  
+  margin-top:30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.newButton:hover {
+  background:blue;
+  color:#3b3b3b;
+  cursor: pointer;
+}
+
+.newButton:hover h4{
+  color:#FFFFFF;
+}
+
+.newButton h4{
+  color:#FFFFFF;
+}
+
+.newButton:focus {
+  background:#3b3b3b;
+  color:#FFFFFF;
+  cursor: pointer; 
+}
+
 .button:hover {
   background:#3b3b3b;
   color:#FFFFFF;
@@ -151,7 +187,7 @@ canvas {
 }
 
 .space {
-  height: 120px;
+  height: 150px;
 }
 
 /* The Modal (background) */
@@ -170,11 +206,12 @@ canvas {
 
 /* Modal Content */
 .modal-content {
-  background-color: #FFFFFF;
+  background-color: #FFFAF0;
   margin-left:50px;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 30%;
+  height:70%;
 }
 
 /* The Close Button */
