@@ -104,6 +104,39 @@ canvas {
 }
 
 
+#myBtn {
+  border: 1px solid black;
+  border-radius:50px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "courier";
+  color:#3b3b3b;
+  background:none;
+  /*stroke:#000000;*/
+  width:150px;
+  margin-right:10px;  
+  margin-top:30px;
+  padding: 10px;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background:#3b3b3b;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+#myBtn:hover h4{
+  color:#FFFFFF;
+}
+
+#myBtn:focus {
+  background:#3b3b3b;
+  color:#FFFFFF;
+  cursor: pointer; 
+}
+
+
 #half {
     /*position: fixed; */
   position: -webkit-sticky;
@@ -119,4 +152,42 @@ canvas {
 
 .space {
   height: 120px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color:#FFFAF0; /* Fallback color */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #FFFFFF;
+  margin-left:50px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }

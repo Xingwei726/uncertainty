@@ -10,11 +10,13 @@
     <!--<link rel="stylesheet" href="style.css" />-->
 
 
+    <script src="https://d3js.org/d3.v5.js"></script>
 
     <!-- dependencies -->
     <script src="./libraries/p5.min.js"></script>
     <script src="./libraries/p5.svg.js"></script>
     <script type='text/javascript' src='./libraries/p5.dom.min.js'></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
 
 
 
@@ -27,14 +29,15 @@
 
     <h2>Who will win the presidency?</h2>
     <p><b>Get ready to simulate the 2016 presidential election!</b></p>
-    <p>In the map at right, each state is represented by a spinning line. The faster each state spins, the more certain the polling data is prior to the election.   The color represents the candidate leading each state poll. Polling data isn’t perfect.  Examine the outcomes and look for areas where the polling data didn’t reflect election day results.</p>
-    <p><b>Click the “Roll” buttons to simulate election day results. Each result will be saved. See how many times each candidate wins.</b></p>
+    <!--<p>In the map at right, each state is represented by a spinning line. The faster each state spins, the more certain the polling data is prior to the election.   The color represents the candidate leading each state poll. Polling data isn’t perfect.  Examine the outcomes and look for areas where the polling data didn’t reflect election day results.</p>-->
+    <p>This map shows us what the chances of either Clinton or Trump had of winning  for each state. Try to see if you can predict who will win according to the data. </p>
+    <p><b>Now lets simulate the election, remember to do it at least a 100 times to truly experience a large number of possible outcomes.</b></p>
     <div class="center">
         <button class="button">
-            <a href="index.html"><h4>Roll Once</h4></a>
+            <a href="index.html"><h4>Simulate Once</h4></a>
         </button>
         <button class="button">
-            <a href="index.html"><h4>Roll 10 Times</h4></a>
+            <a href="index.html"><h4>Simulate 100 times</h4></a>
         </button>
         <button class="button">
             <a href="index.html"><h4>Clear</h4></a>
@@ -42,21 +45,38 @@
     </div>
     
     <div class="space"></div>
-    
     <div class="center">
         <button class="button">
             <a href="index.html"><h4>Homepage</h4></a>
         </button>
+              <button id="myBtn"><h4>Open Modal</h4></button>
+
     </div>
 
+    <!--<div id="graph"></div>-->
+    <!-- Trigger/Open The Modal -->
+    <!--<div class="center">-->
+    <!--  <button id="myBtn"><h4>Open Modal</h4></button>-->
+    <!--</div>-->
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    
+    </div>
   </div>
   
   
   
           
     <!-- p5 code -->
-    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <!--<script language="javascript" type="text/javascript" src="sketch.js"></script>-->
+    <script language="javascript" type="text/javascript" src="sketch2.js"></script>
     <script language="javascript" type="text/javascript" src="./libraries/cash.min.js"></script>
     <script language="javascript" type="text/javascript" src="./libraries/moment.min.js"></script>
     <script language="javascript" type="text/javascript" src="./libraries/lodash.min.js"></script>
