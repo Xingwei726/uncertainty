@@ -70,6 +70,16 @@ P {
   font-weight: 400;
 }
 
+b2 {
+  font-weight: 700;
+  color:blue;
+}
+
+b3 {
+  font-weight: 700;
+  color:tomato;  
+}
+
 
 #intro {
   max-width: 45rem;

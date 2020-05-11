@@ -22,6 +22,7 @@ a:hover {
   border-bottom: 2px solid currentColor;
 }
 
+
 P {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -99,8 +100,8 @@ canvas {
   font-size: 12px;
   font-weight: 400;
   font-family: "courier";
-  color:#FFFFFF;
-  background:#000000;
+  color:#3b3b3b;
+  background:#3b3b3b;
   width:150px;
   margin-right:10px;  
   margin-top:20px;
@@ -109,7 +110,7 @@ canvas {
 }
 
 .newButton:hover {
-  background:blue;
+  background:purple;
   color:#3b3b3b;
   cursor: pointer;
 }
@@ -247,10 +248,10 @@ canvas {
 .modal-content {
   background-color: #FFFAF0;
   margin-left:50px;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 10px;
+  /*border: 1px solid #888;*/
   width: 30%;
-  height:70%;
+  height:80%;
 }
 
 /* The Close Button */
