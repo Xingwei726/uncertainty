@@ -30,11 +30,17 @@
     <h2>Simulate the 2016 Election!</h2>
     <!--<p><b>Get ready to simulate the 2016 presidential election!</b></p>-->
     <!--<p>In the map at right, each state is represented by a spinning line. The faster each state spins, the more certain the polling data is prior to the election.   The color represents the candidate leading each state poll. Polling data isn’t perfect.  Examine the outcomes and look for areas where the polling data didn’t reflect election day results.</p>-->
-    <p>This map shows us what the chances of either Clinton or Trump had of winning  for each state. Try to see if you can predict who will win according to the data. </p>
-    <p><b>Now lets simulate the election, remember to do it at least a 100 times to truly experience a large number of possible outcomes.</b></p>
+    <p>This map shows us what the chances of either Clinton or Trump had of winning for each state. Try to see if you can predict who will win according to the data. A candidate needs to win <b>270 or more votes</b> to win the presidential election. Each state gets a certain number of votes. When you simulate the election the number on each state is the number of votes that state has. These votes add up to determine which candidate wins.</p>
+    <p><b>Tip 1: Click on the 'Documentation' if you want to know more about how the election is simulated</b></p>
+    <p><b>Tip 2: Click on the 'Margin of Error' to see what the exact margin of error of each state's polling data</b></p>
+    <p><b>Tip 3: Pay attention to those states which still have the spinning bar!</b></p>
+
     <div class="center">
         <button id="myBtn">
-            <h4>Margin of Errors</h4>
+            <h4>Margin of Error</h4>
+        </button>
+        <button id="myBtn2">
+            <h4>Documentation</h4>
         </button>
     </div>
 
@@ -45,19 +51,16 @@
         <button class="button">
             <a href="chart3.html"><h4>Simulate 100 times</h4></a>
         </button>
-        <button class="button">
-            <a href="chart.html"><h4>Clear</h4></a>
-        </button>
+        <!--<button class="button">-->
+        <!--    <a href="chart.html"><h4>Clear</h4></a>-->
+        <!--</button>-->
     </div>
     
-    <div class="space"></div>
+    <!--<div class="space"></div>-->
     <div class="center">
         <button class="newButton">
             <a href="index.html"><h4>Homepage</h4></a>
         </button>
-        <!--<button id="myBtn">-->
-        <!--    <h4>Margin of Errors</h4>-->
-        <!--</button>-->
     </div>
 
 
@@ -67,12 +70,22 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Original Margin of Errors (From Polling Data)</p>
+        <!--<p>Original Margin of Errors (From Polling Data)</p>-->
         <img id="image" style="width:450px;" src="./images/MOE.svg">
-
       </div>
-    
+      
     </div>
+    
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <!--<p>Original Margin of Errors (From Polling Data)</p>-->
+        <img id="image" style="width:450px;" src="./images/documentation.svg">
+      </div>
+      
+    </div>    
+    
   </div>
   
   
